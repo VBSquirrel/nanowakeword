@@ -17,11 +17,11 @@ from nanowakeword import NanoInterpreter
 # ==============================================================================
 #                           CONFIGURATION
 # ==============================================================================
-MODEL_PATH = r"trained_models/jarvis/model/jarvis.onnx"
-POSITIVE_DIR = r"T_data/positive"
+MODEL_PATH = r"trained_models/hey_hana/model/hey_hana.onnx"
+POSITIVE_DIR = r"training_data/positive"
 NEGATIVE_SPEECH_DIR = r"data/negative"
-NEGATIVE_NOISE_DIR = r"notebooks/data/background_noise"
-THRESHOLD = 0.80
+NEGATIVE_NOISE_DIR = r"training_data/noise"
+THRESHOLD = 0.50
 CHUNK_SIZE = 1280
 
 # Set a number to limit how many files are tested from the START of each folder.
