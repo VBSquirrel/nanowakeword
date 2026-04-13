@@ -21,7 +21,7 @@ MODEL_PATH = r"trained_models/hey_hana/model/hey_hana.onnx"
 POSITIVE_DIR = r"training_data/positive"
 NEGATIVE_SPEECH_DIR = r"data/negative"
 NEGATIVE_NOISE_DIR = r"training_data/noise"
-THRESHOLD = 0.50
+THRESHOLD = 0.65
 CHUNK_SIZE = 1280
 
 # Set a number to limit how many files are tested from the START of each folder.
